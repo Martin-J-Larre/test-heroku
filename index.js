@@ -9,6 +9,7 @@ const PORT = 4000;
 
 app.get('/', (request, response) => {
     response.send("Heroku-clase-33")
+    console.log("Test con Heroku");
 })
 
 app.listen(PORT, () => {
