@@ -1,6 +1,9 @@
 const express = require('express')
+let cors = require('cors');
+const { apps } = require('firebase-admin');
 
 const app = express()
+apps.use(cors("*"));
 
 const PORT = 4000;
 
